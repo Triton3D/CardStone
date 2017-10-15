@@ -100,17 +100,6 @@ def update():
         elif MENU_ACT_ITEM > (len(MENU_ITEMS)-1):
             MENU_ACT_ITEM = len(MENU_ITEMS)-1
 
-        if MENU_ITEMS[MENU_ACT_ITEM] == 'START':
-            MENU_MESSAGE = "Start new game"
-        elif MENU_ITEMS[MENU_ACT_ITEM] == 'RESUME':
-            MENU_MESSAGE = "Continue game"
-        elif MENU_ITEMS[MENU_ACT_ITEM] == 'SETTINGS':
-            MENU_MESSAGE = "Setting your game"
-        elif MENU_ITEMS[MENU_ACT_ITEM] == 'EXIT':
-            MENU_MESSAGE = "Exit to OS"
-
-
-
             
     
     
