@@ -48,7 +48,7 @@ def initialisation():
 	MENU_ITEMS_RECT = []
 	FPSCLOCK = pygame.time.Clock()
 	EVENT='None'
-	FPS = 20
+	FPS = 10
 	GAME_STATE = 'firstrun'
 	PLAYER = 'player'
 	MENU_MESSAGE = 'Welcome!'
