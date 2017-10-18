@@ -199,7 +199,7 @@ def game():
 			TIMER_1 = 0
 
 	if GAME_STATE == 'choose':
-		FPS = 60 
+		FPS = 120 
 		GAME_SCREEN.fill(WHITE)
 		game_message('Call your name!')
 		playerNameSrf = FONT.render(PLAYER,True,RED)

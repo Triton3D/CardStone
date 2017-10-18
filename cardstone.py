@@ -74,7 +74,7 @@ def get_events():
 			elif event.key == pygame.K_ESCAPE:
 				EVENT = 'ESC'
 			elif event.key>=pygame.K_a and event.key<=pygame.K_z:
-				if EVENT == 'None':
+				 EVENT == 'None':
 					KEY = event.key
 					EVENT = 'TYPE'
 
@@ -199,7 +199,7 @@ def game():
 			TIMER_1 = 0
 
 	if GAME_STATE == 'choose':
-		FPS = 120 
+		FPS = 10 
 		GAME_SCREEN.fill(WHITE)
 		game_message('Call your name!')
 		playerNameSrf = FONT.render(PLAYER,True,RED)
