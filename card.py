@@ -16,7 +16,7 @@ card = Card(50,100,'d:\\2.gif')
 
 while True:
     screen.fill((255,255,255))
-    screen.blit(card.image,card.rect.fit(((10,220),(50,100))))
+    screen.blit(card.image,card.rect.fit(((10,220),(10,100))))
     #card.rect=card.rect.fit((0,0),(50,100))
     pygame.display.flip()
     pygame.display.update()
